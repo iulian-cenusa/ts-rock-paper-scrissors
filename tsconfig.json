@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2021", // Or a recent ES version like es2020, es2018
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist", // Output directory for compiled JS
+    "rootDir": "./src" // Source directory for TS files
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
