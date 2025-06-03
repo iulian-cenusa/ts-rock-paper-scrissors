@@ -1,0 +1,1 @@
+export type ShipType = 'Battleship' | 'Cruiser' | 'Destroyer';
